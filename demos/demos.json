@@ -1,0 +1,52 @@
+{
+	"demos" : [
+		{
+			"title": "Soundbox",
+			"description": "We are happy to share a brand new...",
+			"category": "Games",
+			"highlight": false,
+			"thumbnail": "./demos/thumbnails/screenshot-418529.17395943037-soundboxing.jpg",
+			"url" : "https://www.igalia.com"
+		},
+		{
+			"title": "Soundbox",
+			"description": "We are happy to share a brand new...",
+			"category": "Games",
+			"highlight": false,
+			"thumbnail": "./demos/thumbnails/rovr_run.png",
+			"url" : "https://www.igalia.com"
+		},
+		{
+			"title": "Other title",
+			"description": "...",
+			"category": "Games",
+			"highlight": false,
+			"thumbnail": "./demos/thumbnails/see_u_in_wonderland.jpg",
+			"url" : "https://www.igalia.com"
+		},
+		{
+			"title": "Soundbox",
+			"description": "We are happy to share a brand new...",
+			"category": "Videos",
+			"highlight": false,
+			"thumbnail": "./demos/thumbnails/hello_webxr.jpg",
+			"url" : "https://www.igalia.com"
+		},
+		{
+			"title": "Test 1",
+			"description": "We are happy to share a brand new...",
+			"category": "Interactives",
+			"highlight": true,
+			"thumbnail": "./demos/thumbnails/screenshot-418529.17395943037-soundboxing.jpg",
+			"url" : "https://www.igalia.com"
+		},
+		{
+			"title": "Test 2",
+			"description": "We are happy to share a brand new...",
+			"category": "Interactives 2",
+			"highlight": true,
+			"thumbnail": "./demos/thumbnails/hello_webxr.jpg",
+			"url" : "https://www.igalia.com"
+		}
+	]
+}

@@ -38,8 +38,13 @@ p {
 	color: #aaa;
 }
 
+a:visited {
+	color: unset;
+}
+
 main {
 	text-align: center;
+	user-select: none;
 }
 
 .slider {
@@ -50,7 +55,7 @@ main {
 	margin-bottom: 5px;
 }
 
-.slider a.slide {
+.slider a.item {
 	cursor: pointer;
 	position: relative;
 	display: block;
@@ -59,7 +64,7 @@ main {
 	overflow: hidden;
 }
 
-.slider a.slide .info {
+.slider a.item .info {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -74,26 +79,26 @@ main {
 	z-index: 1;
 }
 
-.slider a.slide .info h2 {
+.slider a.item .info h2 {
 	position: absolute;
 	top: 10px;
 }
 
-.slider a.slide .info p {
+.slider a.item .info p {
 	position: absolute;
 	top: 40px;
 }
 
-.slider a.slide .info:hover {
+.slider a.item .info:hover {
 	opacity: 1;
 }
 
-.slider a.slide .info img.play_vr {
+.slider a.item .info img.play_vr {
 	width: 130px;
 	height: auto;
 }
 
-.slider a.slide img {
+.slider a.item img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -101,7 +106,7 @@ main {
 	/*border-radius: 10px;*/
 }
 
-.slider a.slide:hover > img {
+.slider a.item:hover > img {
 	transform: scale( 1.1 );
 }
 
@@ -114,7 +119,7 @@ main {
 }
 
 .slider .bullets a {
-	cursor: pointer;
+	/*cursor: pointer;*/
 	display: inline-block;
     width: 10px;
     height: 10px;
@@ -122,6 +127,7 @@ main {
 	margin: 10px;
 	border-radius: 50%;
 	border: 1px solid #7e7e7e;
+	transition: all 0.2s ease;
 }
 
 .slider .bullets a.selected {
@@ -152,8 +158,14 @@ main {
 	transition: all 0.2s ease;
 }
 
-.tags a:hover {
+.tags.filtering a {
+	opacity: .5;
+}
+
+.tags a:hover,
+.tags a.selected {
 	background: #343434;
+	opacity: 1;
 }
 
 .grid {
@@ -173,6 +185,14 @@ main {
 	min-height: 330px;
 	box-sizing: border-box;
 	overflow: hidden;
+	transition: all 0.2s ease;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.grid a.item.visible {
+	opacity: 1;
+	visibility: visible;
 }
 
 .grid a.item img {
