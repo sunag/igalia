@@ -1,52 +1,77 @@
 {
 	"demos" : [
 		{
-			"title": "Soundbox",
-			"description": "We are happy to share a brand new...",
-			"category": "Games",
-			"highlight": false,
-			"thumbnail": "./demos/thumbnails/screenshot-418529.17395943037-soundboxing.jpg",
-			"url" : "https://www.igalia.com"
-		},
-		{
-			"title": "Soundbox",
-			"description": "We are happy to share a brand new...",
-			"category": "Games",
-			"highlight": false,
-			"thumbnail": "./demos/thumbnails/rovr_run.png",
-			"url" : "https://www.igalia.com"
-		},
-		{
-			"title": "Other title",
-			"description": "...",
-			"category": "Games",
-			"highlight": false,
-			"thumbnail": "./demos/thumbnails/see_u_in_wonderland.jpg",
-			"url" : "https://www.igalia.com"
-		},
-		{
-			"title": "Soundbox",
-			"description": "We are happy to share a brand new...",
-			"category": "Videos",
-			"highlight": false,
-			"thumbnail": "./demos/thumbnails/hello_webxr.jpg",
-			"url" : "https://www.igalia.com"
-		},
-		{
-			"title": "Test 1",
-			"description": "We are happy to share a brand new...",
-			"category": "Interactives",
+			"title": "Brush Work",
+			"description": "Start painting",
+			"category": "Painting",
 			"highlight": true,
-			"thumbnail": "./demos/thumbnails/screenshot-418529.17395943037-soundboxing.jpg",
-			"url" : "https://www.igalia.com"
+			"thumbnail": "./demos/thumbnails/brushworkvr.jpg",
+			"url" : "https://brushworkvr.com/"
 		},
 		{
-			"title": "Test 2",
-			"description": "We are happy to share a brand new...",
-			"category": "Interactives 2",
+			"title": "Moon Rider",
+			"description": "Songs maps sourced from beatsaver.com with expressed support from Beat Saber comunnity admins.",
+			"category": "Games",
 			"highlight": true,
-			"thumbnail": "./demos/thumbnails/hello_webxr.jpg",
-			"url" : "https://www.igalia.com"
+			"thumbnail": "./demos/thumbnails/moonrider.jpg",
+			"url" : "https://moonrider.xyz/"
+		},
+		{
+			"title": "Sound Boxing",
+			"description": "Soundboxing is a rhythmic shadowboxing game where you create the beats.",
+			"category": "Games",
+			"highlight": true,
+			"thumbnail": "./demos/thumbnails/soundboxing.jpg",
+			"url" : "https://webvr.soundboxing.co/"
+		},
+		{
+			"title": "AR Synth",
+			"category": "Games",
+			"thumbnail": "./demos/thumbnails/ar-synth.jpg",
+			"url" : "https://artsexperiments.withgoogle.com/ar-synth/"
+		},
+		{
+			"title": "Spider-Man",
+			"category": "Games",
+			"thumbnail": "./demos/thumbnails/spidermain_box.jpg",
+			"url" : "https://spiderman.webvr.link/"
+		},
+		{
+			"title": "Obscura",
+			"category": "Games",
+			"thumbnail": "./demos/thumbnails/obscura.jpg",
+			"url" : "https://obscura.world"
+		},
+		{
+			"title": "Rouge Saber",
+			"category": "Games",
+			"thumbnail": "./demos/thumbnails/roguesaber.jpg",
+			"url" : "https://roguesaber.rvdleun.com"
+		},
+		{
+			"title": "Hello WebXR!",
+			"description": "We are happy to share a brand new WebXR experience we have been working on called Hello WebXR!",
+			"category": "Tours",
+			"thumbnail": "./demos/thumbnails/mixedreality.jpg",
+			"url" : "https://mixedreality.mozilla.org/hello-webxr/"
+		},
+		{
+			"title": "Matterport",
+			"category": "Tours",
+			"thumbnail": "./demos/thumbnails/matterport.jpg",
+			"url" : "https://matterport.com/gallery"
+		},
+		{
+			"title": "With",
+			"category": "Others",
+			"thumbnail": "./demos/thumbnails/with.jpg",
+			"url" : "https://vr.with.in/"
+		},
+		{
+			"title": "itch.io",
+			"category": "Others",
+			"thumbnail": "./demos/thumbnails/itch.jpg",
+			"url" : "https://itch.io/games/tag-webvr"
 		}
 	]
 }
