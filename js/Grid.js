@@ -17,7 +17,7 @@ export class Grid {
 
 export class GridItem {
 
-	constructor( title, description, thumbnail, url ) {
+	constructor( title = '', description = '', thumbnail, url ) {
 
 		this.dom = document.createElement( 'a' );
 		this.dom.className = 'item';
