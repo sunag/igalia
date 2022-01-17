@@ -55,6 +55,8 @@ export class Slider {
 
 		item.hide();
 
+		let index = this.items.length;
+
 		this.items.push( item );
 
 		this.dom.append( item.dom );
@@ -64,6 +66,8 @@ export class Slider {
 			this.index = 0;
 
 		}
+
+		bulletDOM.onclick = () => this.index = index;
 
 	}
 
