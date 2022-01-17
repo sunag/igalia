@@ -32,9 +32,6 @@
 
 				const loader = new THREE.CubeTextureLoader();
 				loader.setPath( './skybox/' );
-				loader.setPath( './skybox_flip_z/' );
-				loader.setPath( './skybox_flip_z_r180/' );
-				//loader.setPath( './skybox_flip_z_r90/' );
 
 				const textureCube = loader.load( [ 'posx.png', 'negx.png', 'posy.png', 'negy.png', 'posz.png', 'negz.png' ] );
 				textureCube.encoding = THREE.sRGBEncoding;
