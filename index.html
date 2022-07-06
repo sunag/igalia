@@ -21,7 +21,7 @@
 
 				// CAMERAS
 
-				camera = new THREE.PerspectiveCamera( 90, window.innerWidth / window.innerHeight, 1, 100000 );
+				camera = new THREE.PerspectiveCamera( 100, window.innerWidth / window.innerHeight, 1, 100000 );
 				camera.position.set( 0, 0, 1000 );
 
 				// SCENE
@@ -31,7 +31,7 @@
 				// Textures
 
 				const loader = new THREE.CubeTextureLoader();
-				loader.setPath( './v2/skybox/' );
+				loader.setPath( './v2/skybox_r90/' );
 				//loader.setPath( './skybox_r90/' );
 
 				const textureCube = loader.load( [ 'posx.png', 'negx.png', 'posy.png', 'negy.png', 'posz.png', 'negz.png' ] );
